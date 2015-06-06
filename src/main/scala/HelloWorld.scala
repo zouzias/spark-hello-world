@@ -12,7 +12,11 @@ object HelloWorld {
     val sc = new SparkContext(conf)
     
     // do stuff
+    println("************")
+    println("************")
     println("Hello, world!")
+    println("************")
+    println("************")
     
     // terminate spark context
     sc.stop()
