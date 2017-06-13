@@ -3,7 +3,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
  
-// define main method (scala entry point)
+// define main method (Spark entry point)
 object HelloWorld {
   def main(args: Array[String]) {
  
