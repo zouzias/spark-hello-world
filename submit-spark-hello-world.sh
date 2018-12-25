@@ -5,7 +5,7 @@ sbt assembly
 
 # Directory where spark-submit is defined
 # Install spark from https://spark.apache.org/downloads.html
-SPARK_HOME=/Users/${USER}/spark-2.3.1-bin-hadoop2.7
+SPARK_HOME=/Users/${USER}/spark-2.4.0-bin-hadoop2.7
 
 # JAR containing a simple hello world
 JARFILE=`pwd`/target/scala-2.11/HelloWorld-assembly-1.0.jar
