@@ -1,6 +1,8 @@
 language: scala
 sudo: false
 dist: trusty
+scala:
+  - 2.11.12
 cache:
   directories:
   - $HOME/.sbt/0.13/dependency
@@ -15,9 +17,7 @@ before_cache:
 matrix:
   include:
     - jdk: oraclejdk8
-      scala: 2.11.11
     - jdk: openjdk8
-      scala: 2.11.11
 script:
   - sbt ++$TRAVIS_SCALA_VERSION clean update
   - sbt ++$TRAVIS_SCALA_VERSION assembly
