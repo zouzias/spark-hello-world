@@ -1,4 +1,4 @@
-# spark-hello-world [![Build Status](https://travis-ci.org/zouzias/spark-hello-world.svg?branch=master)](https://travis-ci.org/zouzias/spark-hello-world)
+# spark-hello-world [![Scala CI](https://github.com/zouzias/spark-hello-world/actions/workflows/scala.yml/badge.svg)](https://github.com/zouzias/spark-hello-world/actions/workflows/scala.yml)
 A simple hello world using Apache Spark
 
 ## Setup
